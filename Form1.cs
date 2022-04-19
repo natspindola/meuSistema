@@ -29,14 +29,12 @@ namespace meuSistema
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            txtFrase.Text = "Teste de button";
-            this.txtFrase.ForeColor = Color.Black;
+            this.Close();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            txtFrase.Text = "";
-            this.txtFrase.ForeColor = Color.White;
+            Application.Exit();
         }
     }
 }
