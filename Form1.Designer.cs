@@ -42,6 +42,7 @@ namespace meuSistema
             this.btnOK.TabIndex = 0;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCancelar
             // 
@@ -51,6 +52,7 @@ namespace meuSistema
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtFrase
             // 
@@ -66,7 +68,7 @@ namespace meuSistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 322);
+            this.ClientSize = new System.Drawing.Size(555, 281);
             this.Controls.Add(this.txtFrase);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
