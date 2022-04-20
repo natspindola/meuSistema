@@ -31,12 +31,17 @@ namespace meuSistema
         {
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.txtFrase = new System.Windows.Forms.TextBox();
+            this.txtPac1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtPac2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtRes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(403, 167);
+            this.btnOK.Location = new System.Drawing.Point(403, 159);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(76, 26);
             this.btnOK.TabIndex = 0;
@@ -54,27 +59,73 @@ namespace meuSistema
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // txtFrase
+            // txtPac1
             // 
-            this.txtFrase.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtFrase.Location = new System.Drawing.Point(73, 30);
-            this.txtFrase.Name = "txtFrase";
-            this.txtFrase.Size = new System.Drawing.Size(406, 20);
-            this.txtFrase.TabIndex = 2;
-            this.txtFrase.Text = "Digite seu nome";
-            this.txtFrase.TextChanged += new System.EventHandler(this.txtFrase_TextChanged);
+            this.txtPac1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtPac1.Location = new System.Drawing.Point(145, 31);
+            this.txtPac1.Name = "txtPac1";
+            this.txtPac1.Size = new System.Drawing.Size(277, 20);
+            this.txtPac1.TabIndex = 2;
+           
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(87, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Parcela 1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(87, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Parcela 2";
+            // 
+            // txtPac2
+            // 
+            this.txtPac2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtPac2.Location = new System.Drawing.Point(145, 70);
+            this.txtPac2.Name = "txtPac2";
+            this.txtPac2.Size = new System.Drawing.Size(277, 20);
+            this.txtPac2.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(87, 113);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Resultado";
+            // 
+            // txtRes
+            // 
+            this.txtRes.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtRes.Location = new System.Drawing.Point(145, 110);
+            this.txtRes.Name = "txtRes";
+            this.txtRes.Size = new System.Drawing.Size(277, 20);
+            this.txtRes.TabIndex = 6;
             // 
             // FrmMeuSistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 281);
-            this.Controls.Add(this.txtFrase);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtRes);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtPac2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPac1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
             this.Name = "FrmMeuSistema";
             this.Text = "Aplicação";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,7 +135,12 @@ namespace meuSistema
 
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.TextBox txtFrase;
+        private System.Windows.Forms.TextBox txtPac1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtPac2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtRes;
     }
 }
 

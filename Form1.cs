@@ -12,24 +12,21 @@ namespace meuSistema
 {
     public partial class FrmMeuSistema : Form
     {
+        // Conversão e operadores aritimeticos
+        int valor1;
+        int valor2;
+        int res;
+
+
         public FrmMeuSistema()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtFrase_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnOK_Click(object sender, EventArgs e)
         {
-            this.Close();
+            valor1 = int.Parse(txtPac1.Text);
+            valor2 = int.Parse(txtPac2.Text);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
