@@ -61,12 +61,11 @@ namespace meuSistema
             // 
             // txtPac1
             // 
-            this.txtPac1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtPac1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtPac1.Location = new System.Drawing.Point(145, 31);
             this.txtPac1.Name = "txtPac1";
             this.txtPac1.Size = new System.Drawing.Size(277, 20);
             this.txtPac1.TabIndex = 2;
-           
             // 
             // label1
             // 
@@ -88,7 +87,7 @@ namespace meuSistema
             // 
             // txtPac2
             // 
-            this.txtPac2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtPac2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtPac2.Location = new System.Drawing.Point(145, 70);
             this.txtPac2.Name = "txtPac2";
             this.txtPac2.Size = new System.Drawing.Size(277, 20);
@@ -105,7 +104,7 @@ namespace meuSistema
             // 
             // txtRes
             // 
-            this.txtRes.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtRes.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtRes.Location = new System.Drawing.Point(145, 110);
             this.txtRes.Name = "txtRes";
             this.txtRes.Size = new System.Drawing.Size(277, 20);

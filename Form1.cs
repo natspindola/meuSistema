@@ -17,7 +17,6 @@ namespace meuSistema
         int valor2;
         int res;
 
-
         public FrmMeuSistema()
         {
             InitializeComponent();
@@ -27,6 +26,10 @@ namespace meuSistema
         {
             valor1 = int.Parse(txtPac1.Text);
             valor2 = int.Parse(txtPac2.Text);
+
+            // operações matemáticas +, -, *, /, % -> o módulo exibe o que sobrou da divisão
+            res = valor1 + valor2;
+            txtRes.Text = Convert.ToString(res);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
